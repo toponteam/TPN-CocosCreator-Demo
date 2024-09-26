@@ -192,4 +192,6 @@ export const ATJSSDK = {
 
 const GetUserLocationJsCallback = " ATJSSDK.ATSDKListener.getUserLocationCallback";
 
+const VersionCode = 'v1.1.0';
+
 window["ATJSSDK"] = ATJSSDK;
