@@ -1,0 +1,3905 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 7568.840250015259,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/3d",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/light-probe",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-ammo",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-framework",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 65
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/primitive",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/skeletal-animation",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/terrain",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 14
+            },
+            "end": {
+              "line": 25,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 14
+            },
+            "end": {
+              "line": 26,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 14
+            },
+            "end": {
+              "line": 27,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 14
+            },
+            "end": {
+              "line": 28,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/3d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/light-probe"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-ammo"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/primitive"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/skeletal-animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/terrain"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 9012.105417013168,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 171
+            }
+          }
+        },
+        {
+          "value": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 168
+            }
+          }
+        },
+        {
+          "value": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 162
+            }
+          }
+        },
+        {
+          "value": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 155
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATBanner.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 117
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitial.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 123
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitialAuto.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 127
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATNative.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 117
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedAutoVideo.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 128
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedVideo.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 124
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSDK.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 114
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSplash.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 117
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidBannerTS.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 134
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialAutoTS.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 144
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialTS.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 140
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidNativeTS.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 134
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoAutoTS.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 145
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoTS.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 141
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidSplashTS.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 7
+            },
+            "end": {
+              "line": 22,
+              "column": 134
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidTS.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 7
+            },
+            "end": {
+              "line": 23,
+              "column": 128
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSBannerTS.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 7
+            },
+            "end": {
+              "line": 24,
+              "column": 126
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitiaAutolTS.ts",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 7
+            },
+            "end": {
+              "line": 25,
+              "column": 136
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitialTS.ts",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 7
+            },
+            "end": {
+              "line": 26,
+              "column": 132
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSNativeTS.ts",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 7
+            },
+            "end": {
+              "line": 27,
+              "column": 126
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedAutoVideoTS.ts",
+          "resolved": "__unresolved_24",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 137
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedVideoTS.ts",
+          "resolved": "__unresolved_25",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 133
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSSplashTS.ts",
+          "resolved": "__unresolved_26",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 126
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts",
+          "resolved": "__unresolved_27",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 7
+            },
+            "end": {
+              "line": 31,
+              "column": 120
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AutoLoadAdsSceneScript.ts",
+          "resolved": "__unresolved_28",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 7
+            },
+            "end": {
+              "line": 32,
+              "column": 119
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/Constant.ts",
+          "resolved": "__unresolved_29",
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 7
+            },
+            "end": {
+              "line": 33,
+              "column": 105
+            }
+          }
+        },
+        {
+          "value": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/MainSceneScript.ts",
+          "resolved": "__unresolved_30",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 112
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATBanner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitial.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitialAuto.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATNative.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedAutoVideo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedVideo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSDK.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSplash.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidBannerTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialAutoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidNativeTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoAutoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidSplashTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSBannerTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitiaAutolTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitialTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSNativeTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedAutoVideoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedVideoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSSplashTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AutoLoadAdsSceneScript.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/Constant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/MainSceneScript.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+      "mTimestamp": {
+        "mtime": 1728495317000,
+        "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
+      },
+      "chunkId": "45ba29be4a3d1e8a8fa941895e078a469e7e7d39",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 23
+            },
+            "end": {
+              "line": 37,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 7
+            },
+            "end": {
+              "line": 43,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1748503704615,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+      "mTimestamp": {
+        "mtime": 1728495317000,
+        "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
+      },
+      "chunkId": "6f506a6c5f563dadca4fc48dfada1288e8f5a8ac",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 41
+            },
+            "end": {
+              "line": 31,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+      "mTimestamp": {
+        "mtime": 1728495317000,
+        "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
+      },
+      "chunkId": "4109426b88add842c9c43cc2e1bc4e30668de93e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 30
+            },
+            "end": {
+              "line": 25,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 7
+            },
+            "end": {
+              "line": 50,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1728495318000,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "ea97adb72e4faec12843537599f72aa79dec8434",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATBanner.ts": {
+      "mTimestamp": {
+        "mtime": 1733991949617.167,
+        "uuid": "e22ff185-fba6-4b69-ac04-881fc7577576"
+      },
+      "chunkId": "c8d0cbb1bd35be1b9033c67dfa70da1ec8fd3dad",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidBannerTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSBannerTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidBannerTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSBannerTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidBannerTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632963.457,
+        "uuid": "965fa614-e0e9-4a8f-87cb-2b3305297466"
+      },
+      "chunkId": "2f62b7b51b007484b317337534d3ed869f877132",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSBannerTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.4456,
+        "uuid": "0bcebb20-e539-4e08-8d57-4df97b69fb9b"
+      },
+      "chunkId": "289dfc9d17f2f66b092715fe70d8d56d4cac3ea0",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.9263,
+        "uuid": "da9d049a-cb6b-4dc9-bbb0-2fc520d4b755"
+      },
+      "chunkId": "9e3dc4056fd19b61f99e3dbd2de82b58690c221e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitial.ts": {
+      "mTimestamp": {
+        "mtime": 1733991370049.4983,
+        "uuid": "589f80a6-183c-4028-8da5-7b60066f2b16"
+      },
+      "chunkId": "e788c182a6e772cea8c12b1ca9d56bc9dc87c2a1",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidInterstitialTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSInterstitialTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 34
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitialTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632963.961,
+        "uuid": "c43081a4-7da8-4f16-b5e6-09b1c9cce917"
+      },
+      "chunkId": "ef126f5b04ccf5ac963b529ba3f8ab34f7c7d5ca",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitialTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.5972,
+        "uuid": "f5e3921f-5653-46e4-9e46-671e624638dc"
+      },
+      "chunkId": "bdac6fa2b2cff3d1488ef033fc6d9e68873dc272",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitialAuto.ts": {
+      "mTimestamp": {
+        "mtime": 1733991949596.5925,
+        "uuid": "05751ddc-dcdc-4a34-b51e-a345d800df7e"
+      },
+      "chunkId": "814f522e4a902c2654331b9f9ccb4c53b7b1c604",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidInterstitialAutoTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSInterstitiaAutolTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 40
+            },
+            "end": {
+              "line": 2,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialAutoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitiaAutolTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidInterstitialAutoTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632963.8113,
+        "uuid": "a1727201-a787-4604-b55f-9e826fcb87c2"
+      },
+      "chunkId": "361dea9b9a3d78523e4277ad432f06cfef5bb22e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSInterstitiaAutolTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.536,
+        "uuid": "203492ce-ca5a-4a31-a492-0736f0548dbb"
+      },
+      "chunkId": "f0317f0d0c43e750f8a42f9af3c8153e2d472863",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATNative.ts": {
+      "mTimestamp": {
+        "mtime": 1733991949610.8445,
+        "uuid": "c999fb1c-a591-47e8-87c6-1f871ba757d4"
+      },
+      "chunkId": "89a1eadb71262e24062304d23c7cf10f1bade622",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./iOS/ATiOSNativeTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 28
+            },
+            "end": {
+              "line": 1,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./Android/ATAndroidNativeTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 32
+            },
+            "end": {
+              "line": 2,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 29
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSNativeTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidNativeTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSNativeTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.6616,
+        "uuid": "238200c4-b0e5-4579-a979-641a2c2dbd9b"
+      },
+      "chunkId": "fa2178363b8970b47d0c544463b54b82b6040c32",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidNativeTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632964.247,
+        "uuid": "bc6df121-9862-45ce-b6e5-e80358dae64c"
+      },
+      "chunkId": "578abdfbfb3045b6e3c1465155704133407c776c",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedAutoVideo.ts": {
+      "mTimestamp": {
+        "mtime": 1733992142330.5522,
+        "uuid": "228c6b2f-97e7-4022-af43-990276812d18"
+      },
+      "chunkId": "cf609c2af294754d9a91bf120254d5e472593eea",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidRewardedVideoAutoTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 45
+            },
+            "end": {
+              "line": 1,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSRewardedAutoVideoTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 41
+            },
+            "end": {
+              "line": 2,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoAutoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedAutoVideoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoAutoTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632964.5388,
+        "uuid": "36dfae11-b010-41b9-8c0e-bd8eedbcd3e5"
+      },
+      "chunkId": "44b4d7b2d1fd26f543b6aad557bddf13855cbbc7",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedAutoVideoTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.7212,
+        "uuid": "bcf34f7a-35d6-4011-ac30-3a4c0dc5596f"
+      },
+      "chunkId": "6323206c339b08217b176a807bdf364f216f5354",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedVideo.ts": {
+      "mTimestamp": {
+        "mtime": 1733991717046.735,
+        "uuid": "5e010996-f5e2-44e5-b78b-0516ba95f24c"
+      },
+      "chunkId": "179f7acc3020eaefd4d04325177b0b0a32c4ac31",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidRewardedVideoTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 39
+            },
+            "end": {
+              "line": 1,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSRewardedVideoTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 63
+            }
+          }
+        },
+        {
+          "value": "./ATSDK",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 20
+            },
+            "end": {
+              "line": 3,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 32
+            },
+            "end": {
+              "line": 4,
+              "column": 36
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedVideoTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSDK.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidRewardedVideoTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632964.6921,
+        "uuid": "8111c1fb-6ffe-42ab-b714-ef46b326fa25"
+      },
+      "chunkId": "e205a529dd0e523a1fce81d8d7a7fe71661fdaf1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSRewardedVideoTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.8032,
+        "uuid": "d0e5fd53-a64f-4889-80ba-86eb87a30a58"
+      },
+      "chunkId": "62712895b861cc991e42fcf076ee33f5a03e54d5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSDK.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992230.6904,
+        "uuid": "8ed0bf5a-e097-4c5e-ab3e-d820bbd88fbc"
+      },
+      "chunkId": "aa296db6998fc6afbf0af173eac9f04a877adabc",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 22
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632964.9956,
+        "uuid": "d4060149-dd71-48a0-958a-4fcfd43948dd"
+      },
+      "chunkId": "d95759c1a85447c4d4cbb2028d801b242489e948",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSplash.ts": {
+      "mTimestamp": {
+        "mtime": 1733992142313.575,
+        "uuid": "41c093fa-48ff-49f5-b527-22f23e69f43a"
+      },
+      "chunkId": "2c6293b11cb7204795ea21e44cdd86f711e13cf4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Android/ATAndroidSplashTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        },
+        {
+          "value": "./iOS/ATiOSSplashTS",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 28
+            },
+            "end": {
+              "line": 2,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 18
+            },
+            "end": {
+              "line": 3,
+              "column": 22
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidSplashTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSSplashTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/Android/ATAndroidSplashTS.ts": {
+      "mTimestamp": {
+        "mtime": 1748503632964.843,
+        "uuid": "5f078c29-d265-4a4d-b4d9-33b3e0f7f1ee"
+      },
+      "chunkId": "7c231e784b588007004350810c26c8ac694e56c1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSSplashTS.ts": {
+      "mTimestamp": {
+        "mtime": 1732953992231.8672,
+        "uuid": "920d900e-fad3-42c6-b9bd-bb723aeab707"
+      },
+      "chunkId": "e8d3cbbc140fbc649fb4cb7a171392f6d2577352",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./ATiOSTS",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 22
+            },
+            "end": {
+              "line": 1,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/iOS/ATiOSTS.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AutoLoadAdsSceneScript.ts": {
+      "mTimestamp": {
+        "mtime": 1733997902321.7656,
+        "uuid": "c5f57001-8c00-4713-80d9-0ec3239f190f"
+      },
+      "chunkId": "550d268f259b1c8e8629cc2c87945ba5d61212ad",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATRewardedAutoVideo",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 39
+            },
+            "end": {
+              "line": 1,
+              "column": 91
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATInterstitialAuto",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 89
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/Constant",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 23
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 44
+            },
+            "end": {
+              "line": 6,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedAutoVideo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitialAuto.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/Constant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/Constant.ts": {
+      "mTimestamp": {
+        "mtime": 1733992778412.0762,
+        "uuid": "e7583535-620f-409c-b1eb-436c37b484c6"
+      },
+      "chunkId": "60f064d22e620e6169005723e9bfeff9a50b1953",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 36
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/MainSceneScript.ts": {
+      "mTimestamp": {
+        "mtime": 1748503639153.5725,
+        "uuid": "bacc9063-2a6e-4db0-af9b-88fe89f7f3e7"
+      },
+      "chunkId": "d084d9d41815bc87879e793c5f4bd0cbcb8ca92d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATSDK",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 20
+            },
+            "end": {
+              "line": 1,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATBanner",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 26
+            },
+            "end": {
+              "line": 2,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATRewardedVideo",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 33
+            },
+            "end": {
+              "line": 3,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATNative",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 42
+            },
+            "end": {
+              "line": 4,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATInterstitial",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 32
+            },
+            "end": {
+              "line": 5,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/AnyThinkAds/ATSplash",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 26
+            },
+            "end": {
+              "line": 6,
+              "column": 67
+            }
+          }
+        },
+        {
+          "value": "db://assets/script/Constant",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 23
+            },
+            "end": {
+              "line": 7,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 44
+            },
+            "end": {
+              "line": 9,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSDK.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATBanner.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATRewardedVideo.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATNative.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATInterstitial.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/AnyThinkAds/ATSplash.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/welch/Work/Cocos/SDK/up_sdk_cocos/TS/Demo/TPN_Cocos_Demo/assets/script/Constant.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

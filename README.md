@@ -1,25 +1,31 @@
-# TPN-CocosCreator-Demo
+# TPN-Cocos-Demo
 
-## Overview
+---
 
-TopOn is a leading advertising aggregation platform that enables publishers to maximize their revenue by connecting with a diverse range of advertisers. With serving over 10 thousands publishers and over 30 billion users worldwide, TopOn is one of the largest independent advertising platforms globally at present. You can read more about it [here](https://help.toponad.com/docs/mSI16D).
+## Connect us
 
-## Documentation
+Official website ： https://help.toponad.com/
 
-Please check out our [documentation](https://help.toponad.com/docs/9Xhkol) to get started on integrating and enabling mediated networks using our guides.
+Business Cooperation : `business@toponad.com`
 
-## Demo
+Market Cooperation : `leon@toponad.com`
 
-This demo shows how to integrate the TopOn SDK into your application and provides the source code to demonstrate how to use some basic functions of the TopOn API.
+Technical Support : `support@toponad.com`
 
-The development environment requirements:
-- CocosCreator v3.4.1
+QQ & Wechat `188108875(Harry)`
 
+---
 
-## Support
+## Requirements
 
-If you have any questions or issues, you can contact us at:
+To ensure smooth compilation and successful execution of this Demo, we recommend using the following editor versions:  
 
-| Technical Support    | support@toponad.com  |
-| -------------------- | -------------------- |
-| Business Cooperation | business@toponad.com |
+1. Cocos Creator `v3.8.4`  
+2. Android Studio `2024.x`  
+3. Xcode `v16.0-v16.2`
+
+## Integration guide
+
+https://help.toponad.net/docs/9Xhkol
+
+---

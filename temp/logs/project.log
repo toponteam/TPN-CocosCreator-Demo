@@ -1,0 +1,47 @@
+2025-5-29 15:28:24 - log: Load engine in /Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine
+2025-5-29 15:28:24 - log: Register native engine in /Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+2025-5-29 15:28:24 - log: Request namespace: device-list
+2025-5-29 15:28:33 - log: [Scene] meshopt wasm decoder initialized
+2025-5-29 15:28:33 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2025-5-29 15:28:33 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2025-5-29 15:28:34 - log: [Scene] [PHYSICS]: using builtin.
+2025-5-29 15:28:34 - log: [Scene] Cocos Creator v3.8.4
+2025-5-29 15:28:34 - log: [Scene] Using custom pipeline: Builtin
+2025-5-29 15:28:34 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2025-5-29 15:28:34 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-5-29 19:30:42 - error: [Assets] _updateAdaptResult Invalid size.Error: [Assets] _updateAdaptResult Invalid size.
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1409)
+    at ccAssert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154661:21)
+    at assert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154565:12)
+    at View._updateAdaptResult (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:83832:13)
+    at ScreenAdapter.emit (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:137408:28)
+    at MediaQueryList.eval (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:261886:24)
+    at MediaQueryList.sentryWrapped (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+2025-5-29 20:41:03 - error: [Assets] _updateAdaptResult Invalid size.Error: [Assets] _updateAdaptResult Invalid size.
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1409)
+    at ccAssert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154661:21)
+    at assert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154565:12)
+    at View._updateAdaptResult (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:83832:13)
+    at ScreenAdapter.emit (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:137408:28)
+    at MediaQueryList.eval (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:261886:24)
+    at MediaQueryList.sentryWrapped (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+2025-5-30 10:14:29 - error: [Assets] _updateAdaptResult Invalid size.Error: [Assets] _updateAdaptResult Invalid size.
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1409)
+    at ccAssert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154661:21)
+    at assert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154565:12)
+    at View._updateAdaptResult (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:83832:13)
+    at ScreenAdapter.emit (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:137408:28)
+    at MediaQueryList.eval (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:261886:24)
+    at MediaQueryList.sentryWrapped (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)
+2025-5-30 10:14:36 - error: [Assets] _updateAdaptResult Invalid size.Error: [Assets] _updateAdaptResult Invalid size.
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/@sentry/src/instrument/console.ts:40:20)
+    at Object.error (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1409)
+    at ccAssert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154661:21)
+    at assert (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:154565:12)
+    at View._updateAdaptResult (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:83832:13)
+    at ScreenAdapter.emit (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:137408:28)
+    at MediaQueryList.eval (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/resources/3d/engine/bin/.cache/dev/editor/bundled/index.js:261886:24)
+    at MediaQueryList.sentryWrapped (/Applications/Cocos/Creator/3.8.4/CocosCreator.app/Contents/Resources/app.asar/node_modules/src/helpers.ts:100:17)

@@ -1,0 +1,14 @@
+{
+  "version": "2.3.13",
+  "sourceTimeStamp": 1732953992227.9744,
+  "outputTimeStamps": {
+    "log.json": 1732954047438.4482,
+    "out.bin": 1732954047435.2864,
+    "out.gltf": 1732954047438.0159,
+    "shield.jpg": 1732954047399.212
+  },
+  "options": {
+    "smartMaterialEnabled": true,
+    "matchMeshNames": true
+  }
+}
