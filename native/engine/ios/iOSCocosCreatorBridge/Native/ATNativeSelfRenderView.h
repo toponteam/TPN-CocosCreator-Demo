@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AnyThinkNative/AnyThinkNative.h>
+@class ATNativeAdOffer;
 
 
 NS_ASSUME_NONNULL_BEGIN

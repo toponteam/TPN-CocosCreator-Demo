@@ -7,7 +7,7 @@
 //
 
 #import "ATRewardedVideoWrapper.h"
-#import <AnyThinkRewardedVideo/AnyThinkRewardedVideo.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 
 @interface ATRewardedVideoWrapper()<ATRewardedVideoDelegate>
 @end
@@ -27,7 +27,8 @@ static NSString *const kDelegatesBiddingFilledKey = @"RewardedVideoBiddingFilled
 static NSString *const kDelegatesBiddingFailKey = @"RewardedVideoBiddingFail";
 static NSString *const kDelegatesAttempKey = @"RewardedVideoAttemp";
 static NSString *const kDelegatesLoadFilledKey = @"RewardedVideoLoadFilled";
-static NSString *const kDelegatesLoadFailKey = @"RewardedVideoLoadFail";
+/** 广告源维度加载失败，与 kDelegatesLoadFailedKey（广告位维度）区分 */
+static NSString *const kDelegatesAdSourceLoadFailKey = @"RewardedVideoAdSourceLoadFail";
 
 // again
 static NSString *const kDelegatesAgainPlayStartCallbackKey = @"RewardedVideoAgainPlayStart";
@@ -124,11 +125,11 @@ static NSString *const kShowExtraSceneKey = @"scenario";
 - (void)didFailToLoadADSourceWithPlacementID:(NSString*)placementID extra:(NSDictionary*)extra error:(NSError*)error{
     NSLog(@"ATRewardedVideoWrapper::didFailToLoadADSourceWithPlacementID:%@ error:%@", placementID, error);
     if ([NSThread isMainThread]) {
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
 
     }else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
         });
     }
 
@@ -167,11 +168,11 @@ static NSString *const kShowExtraSceneKey = @"scenario";
 - (void)didFailBiddingADSourceWithPlacementID:(NSString*)placementID extra:(NSDictionary*)extra error:(NSError*)error{
 
     if ([NSThread isMainThread]) {
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
 
     }else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
 
         });
     }

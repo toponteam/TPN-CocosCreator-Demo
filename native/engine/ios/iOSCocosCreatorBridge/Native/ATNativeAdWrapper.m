@@ -7,7 +7,7 @@
 //
 
 #import "ATNativeAdWrapper.h"
-#import <AnyThinkNative/AnyThinkNative.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 #import "ATNativeSelfRenderView.h"
 #import <Masonry/Masonry.h>
 static NSString *const kDelegatesLoadedKey = @"NativeLoaded";
@@ -23,7 +23,8 @@ static NSString *const kDelegatesBiddingFilledKey = @"NativeBiddingFilled";
 static NSString *const kDelegatesBiddingFailKey = @"NativeBiddingFail";
 static NSString *const kDelegatesAttempKey = @"NativeAttemp";
 static NSString *const kDelegatesLoadFilledKey = @"NativeLoadFilled";
-static NSString *const kDelegatesLoadFailKey = @"NativeLoadFail";
+/** 广告源维度加载失败，与 kDelegatesLoadFailedKey（广告位维度）区分 */
+static NSString *const kDelegatesAdSourceLoadFailKey = @"NativeAdSourceLoadFail";
 
 NSString *const kParsedPropertiesFrameKey = @"frame";
 NSString *const kParsedPropertiesBackgroundColorKey = @"background_color";
@@ -325,7 +326,7 @@ NSDictionary *parseNativeExtraJsonStr(NSString* jsonStr) {
 - (void)didFailToLoadADSourceWithPlacementID:(NSString*)placementID extra:(NSDictionary*)extra error:(NSError*)error{
     dispatch_async(dispatch_get_main_queue(), ^{
         NSLog(@"ATNativeAdWrapper::didFailToLoadADSourceWithPlacementID:%@ error:%@", placementID, error);
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
     });
 }
 

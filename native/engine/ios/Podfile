@@ -1,42 +1,36 @@
-# Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '13.0'
 
-
 target 'TPN_Cocos_Demo-mobile' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-    # Pods for TPN_Cocos_Demo-mobile
-  pod 'TPNiOS','6.4.76'
-  pod 'TPNMaioSDKAdapter','6.4.76'
-  pod 'TPNStartAppSDKAdapter','6.4.76'
-  pod 'TPNNendSDKAdapter','6.4.76'
-  pod 'TPNVungleSDKAdapter','6.4.76'
-  pod 'TPNUnityAdsSDKAdapter','6.4.76'
-  pod 'TPNIronSourceSDKAdapter','6.4.76'
-  pod 'TPNTapjoySDKAdapter','6.4.76'
-  pod 'TPNBigoSDKAdapter','6.4.76'
-  pod 'TPNAdColonySDKAdapter','6.4.76'
-  pod 'TPNPubNativeSDKAdapter','6.4.76'
-  pod 'TPNSmaatoSDKAdapter','6.4.76'
-  pod 'TPNPangleSDKAdapter','6.4.76'
-  pod 'TPNKidozSDKAdapter','6.4.76'
-  pod 'TPNAdmobSDKAdapter','6.4.76'
-  pod 'TPNInmobiSDKAdapter','6.4.76'
-  pod 'TPNApplovinSDKAdapter','6.4.76'
-  pod 'TPNMintegralSDKAdapter','6.4.76'
-  pod 'TPNChartboostSDKAdapter','6.4.76'
-  pod 'TPNYandexSDKAdapter','6.4.76'
-  pod 'TPNFyberSDKAdapter','6.4.76'
-  pod 'TPNOgurySDKAdapter','6.4.76'
-  pod 'TPNBaiduSDKAdapter','6.4.76.1'
-  pod 'TPNKuaiShouSDKAdapter','6.4.76'
-  pod 'TPNGDTSDKAdapter','6.4.76'
+  # Pods for TPN_Cocos_Demo-mobile
+  pod 'TPNiOS','6.5.73'
+  #TPN Adx SDK(necessary)
+  pod 'TPNMediationAdxSmartdigimktAdapter','6.5.75.2.2'
+  pod 'TPNMediationBaiduAdapter','10.051.2.1'
+  #Baidu--4.80 SDK
+  pod 'TPNMediationMolocoAdapter','4.8.0.2.1'
+  pod 'TPNMediationKuaiShouAdapter','5.5.10.1.2.0'
+  pod 'TPNMediationVungleAdapter','7.7.1.2.0'
+  pod 'TPNMediationUnityAdsAdapter','4.17.0.2.0'
+  pod 'TPNMediationIronSourceAdapter','9.3.0.0.2.1'
+  pod 'TPNMediationBigoAdapter','5.2.0.2.1'
+  pod 'TPNMediationTaurusXAdapter','1.17.1.2.0'
+  pod 'TPNMediationPangleAdapter','8.1.0.6.2.0'
+  pod 'TPNMediationKwaiAdapter','1.2.4.2.3'
+  pod 'TPNMediationIMAAdapter','3.27.4.2.1'
+  pod 'TPNMediationFacebookAdapter','6.21.1.2.0'
+  pod 'TPNMediationAdmobAdapter','13.4.0.2.0'
+  pod 'TPNMediationInmobiAdapter','11.1.1.2.1'
+  pod 'TPNMediationApplovinAdapter','13.6.0.2.1'
+  pod 'TPNMediationMintegralAdapter','8.1.3.2.2'
+  pod 'TPNMediationBidMachineAdapter','3.7.1.2.2'
+  pod 'TPNMediationGDTAdapter','4.15.90.2.1'
+  pod 'TPNMediationYandexAdapter','8.2.0.2.2'
+  pod 'TPNMediationFyberAdapter','8.4.7.2.0'
   pod 'TPNDebugUISDK'
-  
   pod 'Masonry'
-
 end
 
 post_install do |installer|

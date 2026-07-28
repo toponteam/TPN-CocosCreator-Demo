@@ -46,13 +46,25 @@ list(APPEND PROJ_SOURCES
 cc_ios_before_target(${EXECUTABLE_NAME})
 add_executable(${EXECUTABLE_NAME} ${CC_ALL_SOURCES} ${PROJ_SOURCES})
 source_group(TREE ${CMAKE_CURRENT_LIST_DIR} PREFIX "Source Files" FILES ${PROJ_SOURCES})
+set_source_files_properties(
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Splash/ATSplashAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Banner/ATBannerAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/RewardedVideo/ATRewardedVideoAutoAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/RewardedVideo/ATRewardedVideoWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Interstitial/ATInterstitialAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Interstitial/ATInterstitialAutoAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Native/ATNativeAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Native/ATNativeSelfRenderView.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Core/ATAdWrapper.m
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Core/ATJSBridge.mm
+    ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Core/ATSDKManager.m
+    PROPERTIES COMPILE_FLAGS "-fobjc-arc"
+)
 target_link_libraries(${EXECUTABLE_NAME}
-    "-framework AnyThinkSDK"
-    "-framework AnyThinkBanner"
-    "-framework AnyThinkInterstitial"
-    "-framework AnyThinkNative"
-    "-framework AnyThinkRewardedVideo"
-    "-framework AnyThinkSplash"
+)
+set_target_properties(${EXECUTABLE_NAME} PROPERTIES
+    XCODE_ATTRIBUTE_FRAMEWORK_SEARCH_PATHS "$(inherited) \"$(SRCROOT)/Pods/TPNiOS/core\""
+    XCODE_ATTRIBUTE_OTHER_LDFLAGS "$(inherited)"
 )
 include_directories(
     ${CMAKE_CURRENT_LIST_DIR}/iOSCocosCreatorBridge/Core
@@ -60,4 +72,3 @@ include_directories(
 cc_ios_after_target(${EXECUTABLE_NAME})
 
 configure_file("${CMAKE_CURRENT_LIST_DIR}/Podfile" "${CMAKE_CURRENT_BINARY_DIR}/Podfile" COPYONLY)
-

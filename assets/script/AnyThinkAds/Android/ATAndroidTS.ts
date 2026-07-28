@@ -1,6 +1,6 @@
 import { native } from 'cc';
 
-const classJavaName = "com/anythink/cocosjs/ATJSBridge";
+const classJavaName = "com/secmtp/cocosjs/ATJSBridge";
 
 export const ATAndroidTS = {
     printJsLog : function(msg: any) {

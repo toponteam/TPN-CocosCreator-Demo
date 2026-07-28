@@ -52,3 +52,14 @@
 -dontwarn android.hardware.lights.LightsRequest
 -dontwarn android.net.ssl.SSLSockets
 -dontwarn android.os.VibratorManager
+# Keep AnyThink Cocos JS Bridge (called reflectively via native.reflection.callStaticMethod)
+-keep public class com.anythink.cocosjs.** { *; }
+-keepclassmembers class com.anythink.cocosjs.** {
+   public *;
+}
+
+# Keep Secmtp Cocos JS Bridge (called reflectively via native.reflection.callStaticMethod)
+-keep public class com.secmtp.cocosjs.** { *; }
+-keepclassmembers class com.secmtp.cocosjs.** {
+   public *;
+}

@@ -6,7 +6,7 @@
 //
 
 #import "ATSplashAdWrapper.h"
-#import <AnyThinkSplash/AnyThinkSplash.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 
 // 展示场景ID
 static NSString *const ATCocos_kSplashSceneIDKey = @"ATCocos_SplashSceneIDKey";
@@ -55,7 +55,8 @@ static NSString *const kDelegatesBiddingFailKey = @"SplashBiddingFail";
 // 广告源-普通
 static NSString *const kDelegatesAttempKey = @"SplashAttemp";
 static NSString *const kDelegatesLoadFilledKey = @"SplashLoadFilled";
-static NSString *const kDelegatesLoadFailKey = @"SplashLoadFail";
+/** 广告源维度加载失败，与 kDelegatesLoadFailedKey（广告位维度）区分 */
+static NSString *const kDelegatesAdSourceLoadFailKey = @"SplashAdSourceLoadFail";
 
 
 
@@ -202,10 +203,10 @@ static NSString *const kDelegatesLoadFailKey = @"SplashLoadFail";
 - (void)didFailToLoadADSourceWithPlacementID:(NSString*)placementID extra:(NSDictionary*)extra error:(NSError*)error {
     NSLog(@"ATSplashAdWrapper::didFailToLoadADSourceWithPlacementID:%@---error:%@", placementID,error);
     if ([NSThread isMainThread]) {
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterLoadModelString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterLoadModelString_AnyThinkJS]]];
     }else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterLoadModelString_AnyThinkJS]]];
+            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterLoadModelString_AnyThinkJS]]];
 
         });
     }

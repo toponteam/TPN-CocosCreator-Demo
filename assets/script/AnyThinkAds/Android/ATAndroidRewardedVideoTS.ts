@@ -1,6 +1,6 @@
 import { native } from 'cc';
 
-const classJavaName = "com/anythink/cocosjs/ATRewardedVideoJSBridge";
+const classJavaName = "com/secmtp/cocosjs/ATRewardedVideoJSBridge";
 export const ATAndroidRewardedVideoJS = {
   
     loadRewardedVideo : function (placementId: any, settings: any) {
@@ -35,7 +35,11 @@ export const ATAndroidRewardedVideoJS = {
 
     entryAdScenario : function(placementId: string, scenario: string) {
          console.log("Android-entryAdScenario:" + placementId + "---" + scenario);
-		 native.reflection.callStaticMethod(classJavaName, "entryAdScenario", "(Ljava/lang/String;Ljava/lang/String;)V", placementId, scenario);
+		 try {
+            native.reflection.callStaticMethod(classJavaName, "entryAdScenario", "(Ljava/lang/String;Ljava/lang/String;)V", placementId, scenario);
+        } catch (e) {
+            console.error("entryAdScenario error:", e);
+        }
     }
   
 };

@@ -7,6 +7,7 @@
 //
 
 #import "ATNativeSelfRenderView.h"
+#import <AnyThinkSDK/AnyThinkSDK.h>
 #import <Masonry/Masonry.h>
 #import <AnyThinkSDK/ATImageLoader.h>
 //#import <SDWebImage/SDWebImage.h>
@@ -174,10 +175,10 @@
             [obj setBackgroundColor:[metrics[key][@"background_color"] hasPrefix:@"#"] ? [UIColor colorWithHexString:metrics[key][@"background_color"]] : [UIColor clearColor]];
         }
         if ([obj respondsToSelector:@selector(setTextColor:)] && [metrics[key] containsObjectForKey:@"text_color"]) {
-            [obj setTextColor:[UIColor colorWithHexString:metrics[key][@"text_color"]]];
+            [(UILabel *)obj setTextColor:[UIColor colorWithHexString:metrics[key][@"text_color"]]];
         }
         if ([obj respondsToSelector:@selector(setFont:)] && [metrics[key] containsObjectForKey:@"text_size"] && [metrics[key][@"text_size"] respondsToSelector:@selector(doubleValue)]) {
-            [obj setFont:[UIFont systemFontOfSize:[metrics[key][@"text_size"] doubleValue]]];
+            [(UILabel *)obj setFont:[UIFont systemFontOfSize:[metrics[key][@"text_size"] doubleValue]]];
         }
     }];
     NSDictionary *metric = metrics[kNativeAssetMainImage];

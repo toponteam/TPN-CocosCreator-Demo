@@ -1,6 +1,6 @@
 import { native } from 'cc';
 
-const classJavaName = "com/anythink/cocosjs/ATInterstitialAutoAdJSBridge";
+const classJavaName = "com/secmtp/cocosjs/ATInterstitialAutoAdJSBridge";
 export const ATAndroidInterstitialAutoAdTS =  {
   
     setAdListener : function (listener: any) {
@@ -45,7 +45,11 @@ export const ATAndroidInterstitialAutoAdTS =  {
 
     entryAdScenario : function(placementId: string, scenario: string) {
          console.log("Android-entryAdScenario:" + placementId + "---" + scenario);
-		 native.reflection.callStaticMethod(classJavaName, "entryAdScenario", "(Ljava/lang/String;Ljava/lang/String;)V", placementId, scenario);
+		 try {
+            native.reflection.callStaticMethod(classJavaName, "entryAdScenario", "(Ljava/lang/String;Ljava/lang/String;)V", placementId, scenario);
+        } catch (e) {
+            console.error("entryAdScenario error:", e);
+        }
     }
   
 };

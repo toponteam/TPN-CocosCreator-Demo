@@ -7,7 +7,7 @@
 //
 
 #import "ATInterstitialAutoAdWrapper.h"
-#import <AnyThinkInterstitial/AnyThinkInterstitial.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 
 
 @interface ATInterstitialAutoAdWrapper()<ATAdLoadingDelegate,ATInterstitialDelegate>

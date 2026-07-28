@@ -7,7 +7,7 @@
 //
 
 #import "ATBannerAdWrapper.h"
-#import <AnyThinkBanner/AnyThinkBanner.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 //5.6.6版本以上支持 admob 自适应banner （用到时再import该头文件）
 //#import <GoogleMobileAds/GoogleMobileAds.h>
 
@@ -81,7 +81,8 @@ static NSString *const kDelegatesBiddingFilledKey = @"BannerBiddingFilled";
 static NSString *const kDelegatesBiddingFailKey = @"BannerBiddingFail";
 static NSString *const kDelegatesAttempKey = @"BannerAttemp";
 static NSString *const kDelegatesLoadFilledKey = @"BannerLoadFilled";
-static NSString *const kDelegatesLoadFailKey = @"BannerLoadFail";
+/** 广告源维度加载失败，与 kDelegatesLoadFailedKey（广告位维度）区分 */
+static NSString *const kDelegatesAdSourceLoadFailKey = @"BannerAdSourceLoadFail";
 
 
 
@@ -194,7 +195,7 @@ static NSString *const kDelegatesLoadFailKey = @"BannerLoadFail";
 - (void)didFailToLoadADSourceWithPlacementID:(NSString*)placementID extra:(NSDictionary*)extra error:(NSError*)error{
     dispatch_async(dispatch_get_main_queue(), ^{
         NSLog(@"ATBannerAdWrapper::didFailToLoadADSourceWithPlacementID:%@ error:%@", placementID, error);
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
     });
 }
 
@@ -216,7 +217,7 @@ static NSString *const kDelegatesLoadFailKey = @"BannerLoadFail";
 - (void)didFailBiddingADSourceWithPlacementID:(NSString*)placementID extra:(NSDictionary*)extra error:(NSError*)error{
     dispatch_async(dispatch_get_main_queue(), ^{
         NSLog(@"ATBannerAdWrapper::didFailBiddingADSourceWithPlacementID:%@ error:%@", placementID, error);
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
     });
 }
 

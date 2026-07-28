@@ -7,7 +7,7 @@
 //
 
 #import "ATInterstitialAdWrapper.h"
-#import <AnyThinkInterstitial/AnyThinkInterstitial.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 
 @interface ATInterstitialAdWrapper()<ATInterstitialDelegate>
 @end
@@ -27,7 +27,8 @@ static NSString *const kDelegatesBiddingFilledKey = @"InterstitialBiddingFilled"
 static NSString *const kDelegatesBiddingFailKey = @"InterstitialBiddingFail";
 static NSString *const kDelegatesAttempKey = @"InterstitialAttemp";
 static NSString *const kDelegatesLoadFilledKey = @"InterstitialLoadFilled";
-static NSString *const kDelegatesLoadFailKey = @"InterstitialLoadFail";
+/** 广告源维度加载失败，与 kDelegatesLoadFailedKey（广告位维度）区分 */
+static NSString *const kDelegatesAdSourceLoadFailKey = @"InterstitialAdSourceLoadFail";
 
 @implementation ATInterstitialAdWrapper
 +(instancetype) sharedWrapper {
@@ -113,10 +114,10 @@ static NSString *const kDelegatesLoadFailKey = @"InterstitialLoadFail";
     NSLog(@"ATInterstitialAdWrapper::didFailToLoadADSourceWithPlacementID:%@ error:%@", placementID, error);
     
     if ([NSThread isMainThread]) {
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
     }else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesAdSourceLoadFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
 
         });
     }
@@ -154,10 +155,10 @@ static NSString *const kDelegatesLoadFailKey = @"InterstitialLoadFail";
     NSLog(@"ATInterstitialAdWrapper::didFailBiddingADSourceWithPlacementID:%@ error:%@", placementID, error);
     
     if ([NSThread isMainThread]) {
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
     }else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
+            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@', '%@')", self.delegates[kDelegatesBiddingFailKey], placementID, error.userInfo[NSLocalizedDescriptionKey], [extra jsonFilterString_AnyThinkJS]]];
         });
     }
     
@@ -181,10 +182,10 @@ static NSString *const kDelegatesLoadFailKey = @"InterstitialLoadFail";
     NSLog(@"ATInterstitialAdWrapper::didFailToLoadADWithPlacementID:%@ error:%@", placementID, error);
     
     if ([NSThread isMainThread]) {
-        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@')", self.delegates[kDelegatesLoadFailKey], placementID, error]];
+        [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error]];
     }else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@')", self.delegates[kDelegatesLoadFailKey], placementID, error]];
+            [ATJSBridge callJSMethodWithString:[NSString stringWithFormat:@"%@('%@', '%@')", self.delegates[kDelegatesLoadFailedKey], placementID, error]];
         });
     }
     

@@ -1,6 +1,6 @@
 import { native } from 'cc';
 
-const classJavaName = "com/anythink/cocosjs/ATBannerJSBridge";
+const classJavaName = "com/secmtp/cocosjs/ATBannerJSBridge";
 export const ATAndroidBannerTS = {
 
     loadBanner: function (placementId: any, settings: string) {
@@ -28,7 +28,7 @@ export const ATAndroidBannerTS = {
         try {
             native.reflection.callStaticMethod(classJavaName, "showWithPosition", "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V", placementId, position, "");
         } catch (e) {
-            console.error("anythink  showAdInPosition:  " + e.toString());
+            console.error("secmtp  showAdInPosition:  " + e.toString());
         }
     },
 
@@ -64,7 +64,11 @@ export const ATAndroidBannerTS = {
 
     entryAdScenario: function (placementId: string, scenario: string) {
         console.log("Android-entryAdScenario:" + placementId + "---" + scenario);
-        native.reflection.callStaticMethod(classJavaName, "entryAdScenario", "(Ljava/lang/String;Ljava/lang/String;)V", placementId, scenario);
+        try {
+            native.reflection.callStaticMethod(classJavaName, "entryAdScenario", "(Ljava/lang/String;Ljava/lang/String;)V", placementId, scenario);
+        } catch (e) {
+            console.error("entryAdScenario error:", e);
+        }
     }
 
 };

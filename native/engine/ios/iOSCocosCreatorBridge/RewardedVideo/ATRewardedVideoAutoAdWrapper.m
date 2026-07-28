@@ -7,7 +7,7 @@
 //
 
 #import "ATRewardedVideoAutoAdWrapper.h"
-#import <AnyThinkRewardedVideo/AnyThinkRewardedVideo.h>
+#import <AnyThinkSDK/AnyThinkSDK.h>
 
 
 @interface ATRewardedVideoAutoAdWrapper()<ATAdLoadingDelegate,ATRewardedVideoDelegate>
