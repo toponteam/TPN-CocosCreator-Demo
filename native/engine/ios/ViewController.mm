@@ -28,6 +28,7 @@
 #import "ViewController.h"
 #import "AppDelegate.h"
 #import "platform/ios/AppDelegateBridge.h"
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
 //#include "cocos/platform/Device.h"
 
 namespace {
@@ -43,6 +44,15 @@ namespace {
 
 - (BOOL) shouldAutorotate {
     return YES;
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    if (@available(iOS 14.0, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            NSLog(@"ATT authorization status: %lu", (unsigned long)status);
+        }];
+    }
 }
 
 //fix not hide status on ios7

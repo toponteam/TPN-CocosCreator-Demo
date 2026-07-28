@@ -61,9 +61,10 @@ set_source_files_properties(
     PROPERTIES COMPILE_FLAGS "-fobjc-arc"
 )
 target_link_libraries(${EXECUTABLE_NAME}
+    "-weak_framework AppTrackingTransparency"
 )
 set_target_properties(${EXECUTABLE_NAME} PROPERTIES
-    XCODE_ATTRIBUTE_FRAMEWORK_SEARCH_PATHS "$(inherited) \"$(SRCROOT)/Pods/TPNiOS/core\""
+    XCODE_ATTRIBUTE_FRAMEWORK_SEARCH_PATHS "$(inherited) $(SRCROOT)/Pods/TPNiOS/core/AnyThinkSDK.xcframework/ios-arm64"
     XCODE_ATTRIBUTE_OTHER_LDFLAGS "$(inherited)"
 )
 include_directories(

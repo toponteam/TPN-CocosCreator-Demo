@@ -89,8 +89,8 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "2026-7-28 14:42:43 build success in 6 s!",
-        "detailMessage": "[cmake] -- Generating done\r\r\r",
+        "message": "2026-7-28 17:15:04 build success in 7 s!",
+        "detailMessage": "[cmake] -- OPTION BUILTIN_COCOS_X_PATH:\t\r-- OPTION USE_BUILTIN_EXTERNAL:\tOFF\r-- OPTION USE_MODULES:\tOFF\r\r\r",
         "options": {
           "name": "TPN_Cocos_Demo",
           "server": "",
@@ -148,7 +148,7 @@
           "buildMode": "normal",
           "logDest": "project://temp/builder/log/ios2026-7-28 11-00.log"
         },
-        "time": "2026-7-28 14:42:37",
+        "time": "2026-7-28 17:14:56",
         "dirty": false
       }
     }

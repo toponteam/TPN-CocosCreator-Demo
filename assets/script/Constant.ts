@@ -34,9 +34,9 @@ export class Constant {
             Constant.RewardedPlacementId = 'b5b44a0f115321';
             Constant.InterPlacementId = 'b5bacad26a752a';
             Constant.BannerPlacementId = 'b5bacaccb61c29';
-            Constant.NativePlacementId = 'b5b0f5663c6e4a';
-            Constant.AutoRewardedPlacementId = 'b5fa2500639c86';
-            Constant.AutoInterPlacementId = 'b5fa25016e80bd';
+            Constant.NativePlacementId = 'b658beeab4b66a';
+            Constant.AutoRewardedPlacementId = 'b5b44a0f115321';
+            Constant.AutoInterPlacementId = 'b5bacad26a752a';
             Constant.SplashPlacementId = 'b5c22f0e5cc7a0';
         }
         Constant.YourScenarioId = 'your scenario id';

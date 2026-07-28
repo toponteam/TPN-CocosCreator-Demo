@@ -29,6 +29,7 @@ target 'TPN_Cocos_Demo-mobile' do
   pod 'TPNMediationGDTAdapter','4.15.90.2.1'
   pod 'TPNMediationYandexAdapter','8.2.0.2.2'
   pod 'TPNMediationFyberAdapter','8.4.7.2.0'
+  pod 'TPNMediationQMAdapter','1.6.0.5.2.0' 
   pod 'TPNDebugUISDK'
   pod 'Masonry'
 end
