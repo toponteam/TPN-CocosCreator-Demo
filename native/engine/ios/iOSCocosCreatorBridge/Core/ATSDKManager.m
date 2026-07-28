@@ -9,11 +9,19 @@
 #import "ATSDKManager.h"
 #import <AnyThinkSDK/AnyThinkSDK.h>
 #import "ATJSBridge.h"
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
 
 @implementation ATSDKManager
 +(void) startWithAppID:(NSString*)appID appKey:(NSString*)appKey {
     NSLog(@"ATSDKManager::startWithAppID:%@ appKey:%@", appID, appKey);
     if ([appID isKindOfClass:[NSString class]] && [appKey isKindOfClass:[NSString class]]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (@available(iOS 14.0, *)) {
+                [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+                    NSLog(@"ATSDKManager::ATT authorization status: %lu", (unsigned long)status);
+                }];
+            }
+        });
         NSError *error = nil;
         [[ATAPI sharedInstance] setSystemPlatformType:ATSystemPlatformTypeCocosCreator];
         if (![[ATAPI sharedInstance] startWithAppID:appID appKey:appKey error:&error]) {
